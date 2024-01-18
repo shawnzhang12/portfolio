@@ -1,0 +1,312 @@
+body, html {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.front-page {
+    background-color: #1a1a1a; /* Dark background for the front page */
+    color: #ddd; /* You may want to adjust this per-page as well */
+}
+
+.other-page {
+    background-color: #ffffff; /* White background for other pages */
+    color: #000; /* Dark text color for better readability on light background */
+}
+
+/**********************************/
+/* STYLING FOR THE ABOUT SECTION  */
+/**********************************/
+
+.about-section {
+    position: relative;
+    margin: 0;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box; /* Makes sure the padding is included in the width */
+}
+
+.about-container {
+    position: relative;
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    z-index: 2; /* Ensures content is above the particles background */
+}
+
+
+
+#product-info {
+    display: flex;
+    width: 95%;
+    margin: 0 auto
+}
+
+.item-image-parent {
+    order: 1;
+    width: 50%;
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: top; 
+}
+
+.item-info-parent {
+    order: 2;
+    width: 50%;
+}
+
+.item-list-vertical {
+    order: 1;
+    width: 10%;
+    overflow-y: auto;
+    margin-top: 50px;
+}
+
+.item-image-main {
+    order: 2;
+    width: 70%;
+    height: 80%;
+}
+
+/* sectioning completed */
+
+.thumb-box {
+    width: 75%;
+    margin: 10px auto;
+    background: white;
+    border: 1px solid gray;
+}
+.thumb-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.item-image-main img {
+    width: 100%;
+    height: auto;
+}
+
+.thumb-box:hover {
+    cursor: pointer;
+    border-color: #e77600;;
+    box-shadow: 0px 1px 5px 1px #e77600;
+}
+
+/* Item Info */
+.main-info h4{
+    font-size: 21px;
+    margin-bottom: 0;
+    font-weight: 400
+}
+
+.star-rating {
+    width: 70%;
+    color: gray;
+    font-size: 24px;
+    border-bottom: 0.4px solid rgba(194, 194, 194, 0.829);
+}
+
+.star-rating span {
+    color: gold;
+}
+
+.main-info p {
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+#price {
+    color: rgb(168, 14, 14);
+    font-size: 21px;
+}
+
+/* Select Items */
+
+.change-color {
+    margin-bottom: 10px;
+}
+
+.change-color .thumb-box{
+    margin: 10px 10px 10px 0;
+    width: 40px;
+    display: inline-block;
+}
+
+.change-size select {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border-color: rgb(189, 189, 189);
+    margin-top: 10px;
+}
+
+.description ul {
+    padding-left: 17px;
+    font-size: 15px;
+    line-height: 1.3rem;
+}
+
+/**********************************/
+/* STYLING FOR THE RESUME SECTION */
+/**********************************/
+
+.resume-block {
+    position: relative;
+    margin: 0;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    padding: 20px; /* This adds padding around the particle-js */
+    box-sizing: border-box; /* Makes sure the padding is included in the width */
+}
+
+/* Container for resume */
+.resume-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    z-index: 2; /* Ensures content is above the particles background */
+}
+
+/* Header within the About container */
+.resume-header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #fff;
+}
+
+.resume-header p {
+    font-size: 1.2rem;
+    color: #aaa;
+}
+
+/* Each section within the resume */
+.resume-section {
+    margin-top: 20px;
+}
+
+.resume-section h2 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.resume-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resume-section ul li {
+    color: #ddd;
+    margin-bottom: 5px;
+}
+
+/* Skills section with a grid layout */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 10px;
+}
+
+/* Contact information */
+.contact-info h2 {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.contact-info ul.social-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info ul.social-links li {
+    margin: 0 10px;
+}
+
+.contact-info ul.social-links a {
+    text-decoration: none;
+    color: #ddd;
+}
+
+/**********************************/
+/*    STYLING FOR TIMELINE        */
+/**********************************/
+
+.timeline {
+    position: relative;
+    padding-left: 30px;
+    list-style: none;
+  }
+  
+  .timeline:before {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #2a2a2a;
+  }
+  
+  .timeline-block {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .timeline-dot {
+    position: absolute;
+    left: 4px;
+    height: 10px;
+    width: 10px;
+    background: #131313; /* Adjust the color as needed */
+    border-radius: 50%;
+    top: 15px;
+  }
+  
+  .timeline-content {
+    margin-left: 30px;
+    background: #2a2a2a;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+.resume-container .timeline .timeline-content ul {
+    list-style-type: disc; /* Ensures bullet points are discs */
+    padding-left: 20px; /* Provides space for bullet points */
+    margin-left: 0; /* Resets any inherited left margin */
+}
+
+.resume-container .timeline .timeline-content li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/**********************************/
+/*    STYLING FOR PARTICLES JS    */
+/**********************************/
+
+.particles-js-container {
+    position: absolute;
+    width: 100%;
+    height: 100%; /* Adjust height as needed */
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#particles-js-1 canvas {
+    display: block; /* Removes the canvas margin */
+}
+
+#particles-js-2 canvas {
+    display: block; /* Removes the canvas margin */
+}
