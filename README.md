@@ -184,3 +184,8 @@ See this [section](https://www.docsy.dev/docs/get-started/docsy-as-module/instal
 [Hugo theme module]: https://gohugo.io/hugo-modules/use-modules/#use-a-module-for-a-theme
 [Netlify]: https://netlify.com
 [Docker Compose documentation]: https://docs.docker.com/compose/gettingstarted/
+
+
+Some things to note when hosting and changing domain names:
+- GOdaddy, change DNS name servers to match with netlify's (or digitaloceans)
+- find the netlify load balancer ip address(or ip of droplet) and make that the A record
