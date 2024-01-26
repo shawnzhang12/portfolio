@@ -81,7 +81,12 @@ About Me
                 </a>
             </div>
             <!-- Description -->
-            I like juicy meat. Curry is amazing. Pork, duck, beef, shrimp, squid, pompano, yellow croaker, lamb, goat, chicken, gluten.
+            x+years with python
+            y+ years of software, developing
+            experience with a,b,c
+            would love to learn more about x,y,z
+            Long term goals: oo this, oo that
+            
         </div>
     </section>
     
@@ -109,7 +114,7 @@ Resume
             <p>Epson Canada (May 2022 - August 2022)</p>
             <ul>
               <li>Explored research directions for smart golf coaching, focusing on form analysis and feedback</li>
-              <li>Implemented Mediapipe Blazepose for pose estimation and Detectron2 for ball/club detection on custom COCO datasets</li>
+              <li>Implemented Mediapipe Blazepose for pose estimation, Detectron2 for ball/club detection on custom COCO datasets</li>
               <li>Developed automatic event segmentation and feedback, comparing to professional golfers</li>
               <!-- Add more list items as needed -->
             </ul>
@@ -120,9 +125,40 @@ Resume
           <div class="timeline-content">
             <h3>Production Engineering Fellow</h3>
             <p>Major League Hacking w/ Meta (Jun 2022 - Aug 2022)</p>
+            <ul>
+              <li>Developed an open-source personal portfolio website template using Python, Flask, Jinja, MySQL, Nginx, and unittest</li>
+              <li>Automated testing and deployment workflows using CI/CD with Github Actions</li>
+              <li>Established system and container monitoring, alerting, and visualization using Prometheus and Grafana</li>
+              <!-- Add more list items as needed -->
+            </ul>
           </div>
         </div>
-        <!-- Other positions -->
+        <div class="timeline-block">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Machine Learning for Integrated Circuit Design Intern</h3>
+            <p>Huawei Technologies Canada Co, Ltd (May 2021 - May 2022)</p>
+            <ul>
+              <li>Automated ML Pipeline with Reinforcement Learning (DQN) and Bayesian Optimization to create novel shaped coupled VCO inductors, improving Quality Factor by 7% using PyTorch and Shell Scripting</li>
+              <li>Developed a T-Coil inductor generation tool with center tap option and Cadence EMX simulations using Jupyter and SKILL</li>
+              <li>Led weekly meetings with senior circuit designers to demonstrate tools and update documentatio</li>
+              <!-- Add more list items as needed -->
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-block">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Machine Learning for Integrated Circuit Design Intern</h3>
+            <p>Huawei Technologies Canada Co, Ltd (May 2021 - May 2022)</p>
+            <ul>
+              <li>Automated ML Pipeline with Reinforcement Learning (DQN) and Bayesian Optimization to create novel shaped coupled VCO inductors, improving Quality Factor by 7% using PyTorch and Shell Scripting</li>
+              <li>Developed a T-Coil inductor generation tool with center tap option and Cadence EMX simulations using Jupyter and SKILL</li>
+              <li>Led weekly meetings with senior circuit designers to demonstrate tools and update documentatio</li>
+              <!-- Add more list items as needed -->
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Resume Header -->

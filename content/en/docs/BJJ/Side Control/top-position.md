@@ -43,3 +43,11 @@ weight: 2
 4. Other hand block their hip, and bring your head to the same spot to block their hip.
 5. Turn to become more parallel with their body, and use your head and hand to push them onto their side.
 6. Grab your own bicep and squeeze.
+
+
+
+### Lapel Ezekiel (Throat Punch)
+
+
+
+### Lapel Baseball (Ezekiel Follow-through)

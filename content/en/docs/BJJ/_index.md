@@ -1,5 +1,5 @@
 ---
-title: BJJ
+title: BJJ/Judo
 weight: 0
 date: 2023-12-16
 description: Summary of Techniques for Brazilian Jiu Jitsu, Judo, Grappling, ... etc.
