@@ -104,13 +104,18 @@ Resume
   <!-- Particles Container -->
   <div id="particles-js-2" class="particles-js-container"></div>
   <div class="resume-container">
+    <!-- Resume Header -->
+    <div class="resume-header">
+      <h1>Shawn Zhang</h1>
+      <p>Machine Learning Engineer</p>
+    </div>
     <div class="resume-section">
       <h2>Technical Experience</h2>
       <div class="timeline">
         <div class="timeline-block">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
-            <h3>Software Developer - Machine Learning Intern</h3>
+            <h3>Machine Learning Intern</h3>
             <p>Epson Canada (May 2022 - August 2022)</p>
             <ul>
               <li>Explored research directions for smart golf coaching, focusing on form analysis and feedback</li>
@@ -140,8 +145,8 @@ Resume
             <p>Huawei Technologies Canada Co, Ltd (May 2021 - May 2022)</p>
             <ul>
               <li>Automated ML Pipeline with Reinforcement Learning (DQN) and Bayesian Optimization to create novel shaped coupled VCO inductors, improving Quality Factor by 7% using PyTorch and Shell Scripting</li>
-              <li>Developed a T-Coil inductor generation tool with center tap option and Cadence EMX simulations using Jupyter and SKILL</li>
-              <li>Led weekly meetings with senior circuit designers to demonstrate tools and update documentatio</li>
+              <li>Developed a T-Coil inductor generation tool with center tap and Cadence EMX simulations using Jupyter and SKILL</li>
+              <li>Led weekly meetings with senior circuit designers to demonstrate tools and update documentation</li>
               <!-- Add more list items as needed -->
             </ul>
           </div>
@@ -149,22 +154,29 @@ Resume
         <div class="timeline-block">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
-            <h3>Machine Learning for Integrated Circuit Design Intern</h3>
-            <p>Huawei Technologies Canada Co, Ltd (May 2021 - May 2022)</p>
+            <h3>Image Processing Engineer Intern</h3>
+            <p>A.U.G. Signals Ltd. (May 2020 - August 2020)</p>
             <ul>
-              <li>Automated ML Pipeline with Reinforcement Learning (DQN) and Bayesian Optimization to create novel shaped coupled VCO inductors, improving Quality Factor by 7% using PyTorch and Shell Scripting</li>
-              <li>Developed a T-Coil inductor generation tool with center tap option and Cadence EMX simulations using Jupyter and SKILL</li>
-              <li>Led weekly meetings with senior circuit designers to demonstrate tools and update documentatio</li>
+              <li>Analyzed, documented, and created armed vehicle and vessel HDF5 datasets from Synthetic Aperture Radar (SAR) data</li>
+              <li>Refactored company's classification system for compatibility with deep learning toolboxes and algorithms using MATLAB</li>
+              <li> Preprocessed raw SAR data (Rotate, FFT, PCA) and achieved 98% accuracy in 8-class classification</li>
+              <!-- Add more list items as needed -->
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-block">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Python Developer Intern</h3>
+            <p>Movia (Jun 2019 - August 2019)</p>
+            <ul>
+              <li>Created python scripts that mitigated data corruption on company device via clean shutdown procedures on Gitlab</li>
+              <li>Tested device image on Linux OS and created GPS tracking and Wifi scanning scripts utilizing Bettercap (Go)</li>
               <!-- Add more list items as needed -->
             </ul>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Resume Header -->
-    <div class="resume-header">
-      <h1>Shawn Zhang</h1>
-      <p>Machine Learning Engineer</p>
     </div>
     <div class="resume-section">
       <h2>Education</h2>
@@ -176,42 +188,6 @@ Resume
       <!-- List of skills -->
       <div>Python, MATLAB, C, Bash, Git, Java, Docker, Linux, SQL, LaTeX</div>
       <div>Pytorch, Tensorflow, Pandas, Keras, Scikit-Learn, OpenCV, Matplotlib, Jupyter Notebook, W&B</div>
-    </div>
-    <div class="resume-section">
-      <h2>Technical Experience</h2>
-      <!-- Summarize experience positions here -->
-      <ul>
-        <li>Software Developer - Machine Learning Intern, Epson Canada (May 2022 - August 2022)</li>
-        <li>Production Engineering Fellow, Major League Hacking w/ Meta (Jun 2022 - Aug 2022)</li>
-        <!-- Other positions -->
-      </ul>
-    </div>
-    <div class="resume-section">
-      <h2>Technical Experience</h2>
-      <!-- Summarize experience positions here -->
-      <ul>
-        <li>Software Developer - Machine Learning Intern, Epson Canada (May 2022 - August 2022)</li>
-        <li>Production Engineering Fellow, Major League Hacking w/ Meta (Jun 2022 - Aug 2022)</li>
-        <!-- Other positions -->
-      </ul>
-    </div>
-    <div class="resume-section">
-      <h2>Technical Experience</h2>
-      <!-- Summarize experience positions here -->
-      <ul>
-        <li>Software Developer - Machine Learning Intern, Epson Canada (May 2022 - August 2022)</li>
-        <li>Production Engineering Fellow, Major League Hacking w/ Meta (Jun 2022 - Aug 2022)</li>
-        <!-- Other positions -->
-      </ul>
-    </div>
-    <div class="resume-section">
-      <h2>Technical Experience</h2>
-      <!-- Summarize experience positions here -->
-      <ul>
-        <li>Software Developer - Machine Learning Intern, Epson Canada (May 2022 - August 2022)</li>
-        <li>Production Engineering Fellow, Major League Hacking w/ Meta (Jun 2022 - Aug 2022)</li>
-        <!-- Other positions -->
-      </ul>
     </div>
     <!-- Other sections like Projects, Clubs, Teaching can be added in a similar format -->
     <!-- Contact Information -->
