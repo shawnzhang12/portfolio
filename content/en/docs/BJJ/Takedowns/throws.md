@@ -28,3 +28,11 @@ weight: 3
 2. Guard up, step in. Grab their punching arm with your outside arm and use the inner arm to wrap around their head.
 3. Twist your hips and bend your knees then extend for a hip throw. Keep pressure forward and down facing.
 4. Can finish with deep KOB, right hand on their closest shoulder. Kimura grip their upper arm and keep active toes on back leg
+
+### Arm Drag
+
+1. Left hand grab their right wrist.
+2. Left foot step forward.
+3. Right hand grab their right triceps.
+4. Right leg fall down. Pull their arm towards you.
+5. Quickly turn while falling to reposition on their back.

@@ -85,6 +85,7 @@ About Me
             y+ years of software, developing
             experience with a,b,c
             would love to learn more about x,y,z
+            Hobbies: Cello, Jiu-Jitsu, Cooking, Parkour
             Long term goals: oo this, oo that
             
         </div>
@@ -110,13 +111,28 @@ Resume
       <p>Machine Learning Engineer</p>
     </div>
     <div class="resume-section">
-      <h2>Technical Experience</h2>
+      <h2>Industry Experience</h2>
       <div class="timeline">
+        <div class="timeline-block">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Machine Learning Engineer (Full-Time) </h3>
+                <p class="company-summary">
+                  <img src="/images/icons/stratumai_logo.jpeg" title="StratumAI" alt="StratumAI" width="40" height="40"/> 
+                  <span class="company-name">StratumAI</span>
+                  <span class="duration">(September 2023 - Present)</span>
+                </p>
+            </div>
+          </div>
         <div class="timeline-block">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
             <h3>Machine Learning Intern</h3>
-            <p>Epson Canada (May 2022 - August 2022)</p>
+              <p class="company-summary">
+                <img src="/images/icons/epson_logo.jpeg" title="Epson" alt="Epson" width="40" height="40"/> 
+                <span class="company-name">Epson Canada</span>
+                <span class="duration">(May 2022 - August 2022)</span>
+              </p>
             <ul>
               <li>Explored research directions for smart golf coaching, focusing on form analysis and feedback</li>
               <li>Implemented Mediapipe Blazepose for pose estimation, Detectron2 for ball/club detection on custom COCO datasets</li>
@@ -128,21 +144,12 @@ Resume
         <div class="timeline-block">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
-            <h3>Production Engineering Fellow</h3>
-            <p>Major League Hacking w/ Meta (Jun 2022 - Aug 2022)</p>
-            <ul>
-              <li>Developed an open-source personal portfolio website template using Python, Flask, Jinja, MySQL, Nginx, and unittest</li>
-              <li>Automated testing and deployment workflows using CI/CD with Github Actions</li>
-              <li>Established system and container monitoring, alerting, and visualization using Prometheus and Grafana</li>
-              <!-- Add more list items as needed -->
-            </ul>
-          </div>
-        </div>
-        <div class="timeline-block">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
             <h3>Machine Learning for Integrated Circuit Design Intern</h3>
-            <p>Huawei Technologies Canada Co, Ltd (May 2021 - May 2022)</p>
+              <p class="company-summary">
+                <img src="/images/icons/huawei_logo.jpeg" title="Huawei" alt="Huawei" width="40" height="40"/> 
+                <span class="company-name">Huawei Technologies Canada Co, Ltd</span>
+                <span class="duration">(May 2021 - May 2022)</span>
+              </p>
             <ul>
               <li>Automated ML Pipeline with Reinforcement Learning (DQN) and Bayesian Optimization to create novel shaped coupled VCO inductors, improving Quality Factor by 7% using PyTorch and Shell Scripting</li>
               <li>Developed a T-Coil inductor generation tool with center tap and Cadence EMX simulations using Jupyter and SKILL</li>
@@ -155,7 +162,11 @@ Resume
           <div class="timeline-dot"></div>
           <div class="timeline-content">
             <h3>Image Processing Engineer Intern</h3>
-            <p>A.U.G. Signals Ltd. (May 2020 - August 2020)</p>
+              <p class="company-summary">
+                <img src="/images/icons/aug_logo.jpeg" title="A.U.G. Signals" alt="A.U.G. Signals" width="40" height="40"/> 
+                <span class="company-name">A.U.G. Signals Ltd.</span>
+                <span class="duration">(May 2020 - August 2020)</span>
+              </p>
             <ul>
               <li>Analyzed, documented, and created armed vehicle and vessel HDF5 datasets from Synthetic Aperture Radar (SAR) data</li>
               <li>Refactored company's classification system for compatibility with deep learning toolboxes and algorithms using MATLAB</li>
@@ -168,7 +179,11 @@ Resume
           <div class="timeline-dot"></div>
           <div class="timeline-content">
             <h3>Python Developer Intern</h3>
-            <p>Movia (Jun 2019 - August 2019)</p>
+              <p class="company-summary">
+                <img src="/images/icons/movia_logo.jpeg" title="Movia" alt="Movia" width="40" height="40"/> 
+                <span class="company-name">Movia</span>
+                <span class="duration">(Jun 2019 - August 2019)</span>
+              </p>
             <ul>
               <li>Created python scripts that mitigated data corruption on company device via clean shutdown procedures on Gitlab</li>
               <li>Tested device image on Linux OS and created GPS tracking and Wifi scanning scripts utilizing Bettercap (Go)</li>
@@ -180,29 +195,87 @@ Resume
     </div>
     <div class="resume-section">
       <h2>Education</h2>
-      <p>BASc. in Engineering Science - Machine Intelligence Major, University of Toronto (2018-2023)</p>
-      <!-- Additional details like courses can be listed here -->
+      <div class="timeline">
+         <div class="timeline-block">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>BASc. in Engineering Science - Machine Intelligence Specialization</h3>
+            <p> <img src="/images/icons/university_of_toronto_logo.jpeg" title="University of Toronto" alt="University of Toronto" width="40" height="40"/>
+            University of Toronto (2018-2023)</p>
+            Select Courses:
+            <ul>
+              <li> Biomed: Molecules and Materials, Fundamentals of Biomedical Engineering, Neural Bioelectricity, Biomedical Imaging</li>
+              <li>Machine Learning: Neural Nets and Deep Learning, Artificial Intelligence, Optimization in ML, Decision Support Systems </li>
+              <li>Mathematics: Data Structures and Algorithms, Matrix Algebra and Optimization, Ordinary Differential Equations, Digital Signal Processing, Probability and Statistics, Calculus I-III </li>
+              <li>Physics: Classical Mechanics, Fluid Mechanics, Thermodynamics, Waves and Modern Physics, Electricity and Magnetism, Quantum and Thermal Physics </li>
+              <li>Systems: Systems Software, Distributed Systems, Intro to Databases, Software Engineering</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-block">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Production Engineering Fellow</h3>
+            <p> <img src="/images/icons/major_league_hacking_logo.jpeg" title="MLH" alt="MLH" width="40" height="40"/>
+            Major League Hacking w/ Meta (Jun 2022 - Aug 2022)</p>
+            <ul>
+              <li>Developed an open-source personal portfolio website template using Python, Flask, Jinja, MySQL, Nginx, and unittest</li>
+              <li>Automated testing and deployment workflows using CI/CD with Github Actions</li>
+              <li>Established system and container monitoring, alerting, and visualization using Prometheus and Grafana</li>
+              <!-- Add more list items as needed -->
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="resume-section">
-      <h2>Skills</h2>
-      <!-- List of skills -->
-      <div>Python, MATLAB, C, Bash, Git, Java, Docker, Linux, SQL, LaTeX</div>
-      <div>Pytorch, Tensorflow, Pandas, Keras, Scikit-Learn, OpenCV, Matplotlib, Jupyter Notebook, W&B</div>
-    </div>
-    <!-- Other sections like Projects, Clubs, Teaching can be added in a similar format -->
-    <!-- Contact Information -->
-    <div class="contact-info">
-      <h2>Get in Touch</h2>
-      <ul class="social-links">
-        <li><a href="https://www.linkedin.com/in/shawnzhang12">LinkedIn</a></li>
-        <li><a href="https://github.com/shawnzhang12">GitHub</a></li>
-        <!-- Other links -->
-      </ul>
-    </div>
+      <div class="resume-section">
+        <h2>Toolkit</h2>
+        <div class="icon-wrapper">
+          <img src="/images/icons/python-original-wordmark.svg" title="Python" alt="Python" width="50" height="50"/>
+          <img src="/images/icons/pytorch-original-wordmark.svg" title="Pytorch" alt="Pytorch" width="50" height="50"/>
+          <img src="/images/icons/pandas-original-wordmark.svg" title="Pandas" alt="Pandas" width="50" height="50"/>
+          <img src="/images/icons/jupyter-original-wordmark.svg" title="Jupyter" alt="Jupyter" width="50" height="50"/>
+          <img src="/images/icons/plotly-original-wordmark.svg" title="Plotly" alt="Plotly" width="50" height="50"/>
+          <img src="/images/icons/opencv-original-wordmark.svg" title="OpenCV" alt="OpenCV" width="50" height="50"/>
+          <img src="/images/icons/anaconda-original-wordmark.svg" title="Anaconda" alt="Anaconda" width="50" height="50"/>
+          <img src="/images/icons/linux-original.svg" title="Linux" alt="Linux" width="50" height="50"/>
+          <img src="/images/icons/bash-original-wordmark.svg" title="Bash" alt="Bash" width="50" height="50"/>
+          <img src="/images/icons/git-original-wordmark.svg" title="Git" alt="Git" width="50" height="50"/>
+          <img src="/images/icons/vscode-original.svg" title="VSCode" alt="VSCode" width="50" height="50"/>
+          <img src="/images/icons/matlab-original.svg" title="MATLAB" alt="MATLAB" width="50" height="50"/>
+          <img src="/images/icons/c-original-wordmark.svg" title="C" alt="C" width="50" height="50"/>
+          <img src="/images/icons/java-original-wordmark.svg" title="Java" alt="Java" width="50" height="50"/>
+          <img src="/images/icons/javascript-original.svg" title="Javascript" alt="Javascript" width="50" height="50"/>
+          <img src="/images/icons/digitalocean-original-wordmark.svg" title="DigitalOcean" alt="DigitalOcean" width="50" height="50"/>
+          <img src="/images/icons/postgresql-original-wordmark.svg" title="PostgreSQL" alt="PostgreSQL" width="50" height="50"/>
+          <img src="/images/icons/docker-original-wordmark.svg" title="Docker" alt="Docker" width="50" height="50"/>
+          <img src="/images/icons/raspberrypi-original-wordmark.svg" title="Raspberrypi" alt="Raspberrypi" width="50" height="50"/>
+          <img src="/images/icons/latex-original.svg" title="LATEX" alt="LATEX" width="50" height="50"/>
+          <img src="/images/icons/hugo-original-wordmark.svg" title="Hugo" alt="Hugo" width="50" height="50"/>
+        </div>
+        <div class="skills-container">
+          <div class="skill-section">
+            <h3>Currently Trying Out:</h3>
+            <div class="icon-wrapper">
+              <img src="/images/icons/rust-original.svg" title="Rust" alt="Rust" width="50" height="50"/>
+              <img src="/images/icons/obsidian-original-wordmark.svg" title="Obsidian" alt="Obsidian" width="50" height="50"/>
+              <img src="/images/icons/django-original-wordmark.svg" title="Django" alt="Django" width="50" height="50"/>
+              <img src="/images/icons/netlify-original-wordmark.svg" title="Netlify" alt="Netlify" width="50" height="50"/>
+            </div>
+          </div>
+          <div class="skill-section">
+            <h3>Future Interests:</h3>
+            <div class="icon-wrapper">
+              <img src="/images/icons/go-original-wordmark.svg" title="Go" alt="Go" width="50" height="50"/>
+              <img src="/images/icons/inkscape-original-wordmark.svg" title="Inkscape" alt="Inkscape" width="50" height="50"/>
+              <img src="/images/icons/prometheus-original-wordmark.svg" title="Prometheus" alt="Prometheus" width="50" height="50"/>
+            </div>
+          </div>
+        </div>
+      </div>
   </div>
 </div>
 {{% /blocks/section %}}
-
 
 
 {{% blocks/lead color="primary" image_anchor="top"%}}
