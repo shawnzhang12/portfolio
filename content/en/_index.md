@@ -4,18 +4,14 @@ title: Shawn's Portfolio
 
 {{< blocks/cover title="Shawn's Portfolio!" image_anchor="top" height="full" >}}
 <a class="btn btn-lg btn-primary me-3 mb-4" href="#about-section">
-  Dive In... <i class="fas fa-arrow-alt-circle-right ms-2"></i>
+  Dive In <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
 <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://www.linkedin.com/in/shawnzhang12/" target="_blank">
   Connect <i class="fab fa-linkedin ms-2 "></i>
 </a>
-<p class="lead mt-5">My Notes &mdash; in the cloud!</p>
+<p class="lead mt-5"> My Notes, Thoughts, Dreams ... in the cloud!</p>
 {{< blocks/link-down id="about-section" color="info" >}}
 {{< /blocks/cover >}}
-
-<!-- {{% blocks/lead color="primary" %}} 
-About Me
-{{% /blocks/lead %}} -->
 
 <div id="about-section"></div>
 {{% blocks/section color="dark" type="row" %}}
@@ -23,71 +19,58 @@ About Me
   <!-- Particles Container -->
   <div id="particles-js-1" class="particles-js-container"></div>
   <div class="about-container"> 
-    <section id="product-info">
-        <div class="item-image-parent">
-            <div class="item-list-vertical">
-                <div class="thumb-box">
-                    <img src="https://i.ibb.co/VJf6fXm/thumb1.jpg" alt="thumbnail" />
-                </div>
-                <div class="thumb-box">
-                    <img src="https://i.ibb.co/Jt5zc58/thumb2.jpg" alt="thumbnail" />
-                </div>
-            </div>
-            <div class="item-image-main">
-                <img src="/images/tropical_plant.png" alt="default" />
-            </div>
+    <section id="product-info" class="flex-container">
+        <div class="images-container">
+              <img src="/images/about/headshot.png" alt="Central Image" class="center-image"/>
+              <img src="/images/about/cello.webp" alt="Up Image" class="orbit-image up"/>
+              <img src="/images/about/book.webp" alt="Down Image" class="orbit-image down"/>
+              <img src="/images/about/bjj.webp" alt="Left Image" class="orbit-image left"/>
+              <img src="/images/about/cook.webp" alt="Right Image" class="orbit-image right"/>
+              <img src="/images/about/plant.webp" alt="Up_right Image" class="orbit-image up_right"/>
+              <img src="/images/about/lucid.webp" alt="Up_left Image" class="orbit-image up_left"/>
+              <img src="/images/about/python.webp" alt="Down_right Image" class="orbit-image down_right"/>
+              <img src="/images/about/swim.webp" alt="Down_left Image" class="orbit-image down_left"/>
         </div>
-        <div class="item-info-parent">
+        <div class="info-container">
             <!-- main info -->
             <div class="main-info">
-                <h4>Shawn Zhang - Some Guy</h4>
-                <div class="star-rating">
-                    <span>★★★★</span>★            
-                </div>
-                <p>Location: <span id="price">Toronto, ON, Canada</span></p>
+                <h4>About Myself</h4>
+                <p>Toronto, ON, Canada</p>
+            </div>  
+            <label>Resume TLDR</label><br>
+            <div class="description">
+              <ul>
+                  <li>Work: 3+ years ML space, 6+ years w/ Python 👨‍💻</li>
+                  <li>Education: UofT's EngSci - Machine Intelligence Specialization 🎓</li>
+                  <li>Currently learning about: Rust, Data Science 🦀 </li>
+              </ul>       
+            <label>Current Pastimes</label><br>
+            <div class="description">
+              <ul>
+                  <li>Cello &#x1F3BB</li>
+                  <li>BJJ 🥋</li>
+                  <li>Cooking &#x1F958</li>
+                  <li>Reading &#x1F4D6</li>
+                  <li>Swimming &#x1F3CA</li>
+              </ul>
             </div>
-            <!-- Choose -->
-            <div class="select-items">            
-                <div class="change-color">
-                    <label><b>Colour:</b> Black</label><br>
-                    <div class="thumb-box">
-                        <img src="https://i.ibb.co/QjkJJk3/select1.jpg" alt="thumbnail" />
-                    </div>
-                    <div class="thumb-box">
-                        <img src="https://i.ibb.co/C297yD0/select2.jpg" alt="thumbnail" />
-                    </div>
-                </div>
-                <div class="change-size">
-                    <label><b>Size:</b></label><br>
-                    <select>
-                        <option>S</option>
-                        <option>M</option>
-                        <option>L</option>
-                        <option>XL</option>
-                        <option>2XL</option>
-                    </select>
-                </div>
-                <div class="description">
-                    <ul>
-                        <li>Care Instructions: Machine Wash</li>
-                        <li>Fit Type: Classic Fit</li>
-                        <li>Color name: Black-White</li>
-                        <li>Material: Cotton</li>
-                        <li>Pattern: Solid</li>
-                    </ul>
-                </div>
-                <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://www.linkedin.com/in/shawnzhang12/" target="_blank">
-                  Connect <i class="fab fa-linkedin ms-2 "></i>
-                </a>
+            <label>Short term goals (< 1 year)</label><br>
+            <div class="description">
+                <ul>
+                    <li>Front and back flip, handstand pushup &#x1F938</li>
+                    <li>Active lucid dreamer 🔮</li>
+                    <li>React site with custom workout integrated into a narrative 💦</li>
+                </ul>
             </div>
-            <!-- Description -->
-            x+years with python
-            y+ years of software, developing
-            experience with a,b,c
-            would love to learn more about x,y,z
-            Hobbies: Cello, Jiu-Jitsu, Cooking, Parkour
-            Long term goals: oo this, oo that
-            
+            <label>Long term goals (3+ years)</label><br>
+            <div class="description">
+                <ul>
+                    <li>Become a lucid dreaming wizard 🧙‍♂️</li>
+                    <li>Work in BCI space 🧠🤖</li>
+                </ul>
+            </div>
+            <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://www.linkedin.com/in/shawnzhang12/" target="_blank">
+              Connect <i class="fab fa-linkedin ms-2 "></i></a>
         </div>
     </section>
     
@@ -264,7 +247,7 @@ Resume
             </div>
           </div>
           <div class="skill-section">
-            <h3>Future Interests:</h3>
+            <h3>Might Try Out Later:</h3>
             <div class="icon-wrapper">
               <img src="/images/icons/go-original-wordmark.svg" title="Go" alt="Go" width="50" height="50"/>
               <img src="/images/icons/inkscape-original-wordmark.svg" title="Inkscape" alt="Inkscape" width="50" height="50"/>
