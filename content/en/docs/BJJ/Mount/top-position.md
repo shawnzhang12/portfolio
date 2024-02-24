@@ -18,6 +18,11 @@ weight: 2
 2. Bring other hand over their head, grab collar with thumb in. 
 3. Shave their face, squeeze, head towards side of upper arm.
 
-### Bow and Arrow Choke (a)
+### Bow and Arrow Choke
 
-1. etuh
+1. Sink one hand, 4 fingers in, deep into their diagonal collar.
+1. Opponent: They block with their arm.
+1. Pull them onto their side by relieving weight a little bit, sit on their hip, knee behind their shoulder.
+1. Same hand that's on collar, slide and punch throw, feed to other hand.
+1. Pull knee with other hand.
+1. Both legs cross over top of their body and pull.

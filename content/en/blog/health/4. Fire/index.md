@@ -1,0 +1,1 @@
+temperature control, clothes, bed temp, general temp, no ac, qi circulation, passion, drive, anger
