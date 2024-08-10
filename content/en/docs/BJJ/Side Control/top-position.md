@@ -51,3 +51,20 @@ weight: 2
 
 
 ### Lapel Baseball (Ezekiel Follow-through)
+
+
+
+### Scarf Hold to Canto Choke
+
+1. Same hand holding arm grips behind the collar.
+2. Step over their head and bring knee to the ground.
+3. Bring your head to their opposite hip and frame.
+4. Extend leg and keep grip.
+
+### Scarf Hold  to Chest Compressor
+
+1. Move same side leg up, grab their arm to stabilize.
+2. Use neck arm to grab own groin area.
+3. Other arm around their leg, also grab around groin area.
+4. Lean back slightly, but mostly downwards onto their chest.
+5. Flair up elbows and squeeze, compress them.

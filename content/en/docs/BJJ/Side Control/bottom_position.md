@@ -18,7 +18,7 @@ weight: 3
 
 ### Darce (Bottom Side Control)
 
-1. hi
+1. 
 
 [![Video Preview](http://i3.ytimg.com/vi/B9B-lIEof8o/hqdefault.jpg)](https://www.youtube.com/watch?v=B9B-lIEof8o)
 

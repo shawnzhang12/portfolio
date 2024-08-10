@@ -9,6 +9,7 @@ enableRobotsTXT = true
 ###############################################################################
 
 enableGitInfo = true
+enableEmoji = true
 
 # Language settings
 contentDir = "content/en"
@@ -81,6 +82,8 @@ enable = true
   quality = 75
   anchor = "smart"
 
+[params.drawio]
+enable = true
 ###############################################################################
 # Docsy - Services configuration
 ###############################################################################

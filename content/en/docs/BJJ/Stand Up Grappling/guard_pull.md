@@ -6,6 +6,12 @@ date: 2023-01-14
 weight: 1
 ---
 
+### Guard Pull to Guard/Triangle
+
+1. Right arm collar, left leg first, kick off grip, pull in with leg and wrap
+
+
+
 ### Lapel Guard Pull to Back
 
 1. Get lapel loose (assume their right lapel).

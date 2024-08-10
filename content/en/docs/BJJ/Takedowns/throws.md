@@ -36,3 +36,10 @@ weight: 3
 3. Right hand grab their right triceps.
 4. Right leg fall down. Pull their arm towards you.
 5. Quickly turn while falling to reposition on their back.
+
+### Ippon Seoi Nage (One Armed Shoulder Throw)
+
+1. One hand on sleeve.
+2. Step in with heel towards them, hip slightly lower than theirs, position pivot on their thigh.
+3. Other hand punch into their armpit and use your shoulder and hips to lift them up and over your shoulder.
+

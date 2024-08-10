@@ -31,3 +31,20 @@ weight: 3
 5. Pull on their sleeve and kick with your straight leg, while hip escaping outwards to sit up.
 6. Bend knees and cup their opposite side shoulder with both hands.
 7. Lean forward and keep tight knees for the tap.
+
+### Scissor sweep (semi Z guard)
+
+1. frame, drop both legs, hip out, pull knee across chest
+1. knee across their chest, drop other leg, bend back and kick
+
+### Lasso Sweep + Lasso Sweep block counter sweep, surprise armbar
+
+1. grab both sleeves, open guard, feet on hip, hip escape, one leg over the arm and into the armpit, hip escape other way, foot on ground, sweep and mount
+2. if they block by standing, one foot under thigh to keep space, armpit foot down to other thigh, first foot out and block knee, sweep other way and mount
+3. right before sweeping originally, can let go one arm to bait their attention, then surprise armbar them
+
+### Hip Bump Sweep
+
+1. fake one side, sit up other side, elbow on the ground
+2. other hand trap their triceps
+3. hip up and turn
