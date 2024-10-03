@@ -1,0 +1,61 @@
+<div class="section-index"></div>
+    {{ $page := .Page -}}
+    {{ $pages := (where .Site.Pages "Section" .Section).ByWeight -}}
+    {{ $pages = (where $pages "Type" "!=" "search") }}
+    {{ $pages = (where $pages ".Params.hide_summary" "!=" true) -}}
+    {{ $pages = (where $pages ".Parent" "!=" nil) -}}
+    {{ $pages = (where $pages ".Parent.File" "!=" nil) -}}
+    {{ if $page.File -}}
+        {{ $pages = (where $pages "Parent.File.UniqueID" "==" $page.File.UniqueID) -}}
+    {{ end -}}
+
+    {{ if or $page.Params.no_list (eq (len $pages) 0) -}}
+    {{/* If no_list is true or there are no subpages, don't show a list */}}
+    {{ else if in .RelPermalink "/docs/cooking/" }}
+    {{/* Custom grid layout for cooking section */}}
+    <div class="container">
+        <div class="row">
+            {{ range $pages -}}
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    {{ if .Params.image }}
+                    <a href="{{ .Permalink }}">
+                        <img class="card-img-top" src="/{{ .Params.image }}" alt="{{ .Title }}" style="width: 100%; height: 200px; object-fit: cover;">
+                    </a>
+                    {{ end }}
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </h5>
+                        <p>{{ .Description | markdownify }}</p>
+                    </div>
+                </div>
+            </div>
+            {{ else }}
+            <p>No posts found in this section.</p>
+            {{ end -}}
+        </div>
+    </div>
+
+    {{ else if $page.Params.simple_list -}}
+    {{/* Simple bulleted list for other sections */}}
+        <ul>
+            {{ range $pages -}}
+                {{ $manualLink := cond (isset .Params "manuallink") .Params.manualLink (cond (isset .Params "manuallinkrelref") (relref . .Params.manualLinkRelref) .RelPermalink) }}
+                <li><a href="{{ $manualLink }}"{{ with .Params.manualLinkTitle }} title="{{ . }}"{{ end }}{{ with .Params.manualLinkTarget }} target="{{ . }}"{{ if eq . "_blank" }} rel="noopener"{{ end }}{{ end }}>{{- .Title -}}</a></li>
+            {{ end -}}
+        </ul>
+    {{ else }}
+    {{/* Default Docsy layout for other sections */}}
+    <hr class="panel-line">
+        {{ range $pages -}}
+            {{ $manualLink := cond (isset .Params "manuallink") .Params.manualLink ( cond (isset .Params "manuallinkrelref") (relref . .Params.manualLinkRelref) .RelPermalink) -}}
+            <div class="entry">
+                <h5>
+                    <a href="{{ $manualLink }}"{{ with .Params.manualLinkTitle }} title="{{ . }}"{{ end }}{{ with .Params.manualLinkTarget }} target="{{ . }}"{{ if eq . "_blank" }} rel="noopener"{{ end }}{{ end }}>{{- .Title -}}</a>
+                </h5>
+                <p>{{ .Description | markdownify -}}</p>
+            </div>
+        {{ end -}}
+    {{ end }}
+</div>
