@@ -6,36 +6,46 @@ tags: ["Chinese", "stir-fry", "spicy", "chicken"]
 image: "images/cooking/kung_pao_chicken.jpg"
 ---
 
-{{< figure src="/images/cooking/kung_pao_chicken.jpg" style="width: 50%; height: auto; display: block; margin: 0 auto;" >}}
+<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
+
+<div style="width: 50%; padding-right: 20px;">
 
 ### Ingredients
 
+#### For the Marinade:
 - **400g (14 oz)** boneless, skinless chicken thighs, diced
-- **2 tbsp** soy sauce
+- **1 tbsp** soy sauce
 - **1 tbsp** Shaoxing wine (or dry sherry)
 - **1 tsp** cornstarch
+
+#### For the Stir-fry:
+- **1/2 cup** roasted peanuts
 - **2 tbsp** vegetable oil
-- **8-10** dried red chilies, seeds removed if desired (for less heat)
+- **8-10** dried red chilies
 - **2 tsp** Sichuan peppercorns (optional)
 - **2 cloves** garlic, minced
 - **1 inch** ginger, finely chopped
-- **1 small** onion, diced
-- **1 small** green bell pepper, diced
-- **1/4 cup** roasted peanuts
 - **2-3** scallions, chopped
 
-#### For the sauce
-
-- **2 tbsp** soy sauce
+#### For the Sauce:
+- **1 tbsp** soy sauce
 - **1 tbsp** dark soy sauce
 - **1 tbsp** black vinegar (or rice vinegar)
 - **1 tbsp** sugar
 - **1 tbsp** water
 - **1 tsp** sesame oil
 
+</div>
+
+<div style="width: 40%; padding-left: 20px; text-align: center;">
+    <img src="/images/cooking/kung_pao_chicken.jpg" alt="Kung Pao Chicken" style="width: 100%; height: auto; object-fit: cover;">
+</div>
+
+</div>
+
 ### Instructions
 
-1. **Marinate the chicken**: In a bowl, mix the chicken with 2 tbsp soy sauce, 1 tbsp Shaoxing wine, and 1 tsp cornstarch. Let it marinate for 15-20 minutes.
+1. **Marinate the chicken**: In a bowl, mix the chicken with 1 tbsp soy sauce, 1 tbsp Shaoxing wine, and 1 tsp cornstarch. Let it marinate for 15-20 minutes.
 
 2. **Prepare the sauce**: In a small bowl, whisk together the soy sauces, vinegar, sugar, water, and sesame oil. Set aside.
 
@@ -43,7 +53,7 @@ image: "images/cooking/kung_pao_chicken.jpg"
 
 4. **Stir-fry the chicken**: Add the marinated chicken to the wok and stir-fry for 3-4 minutes until it's browned and cooked through. Remove the chicken from the wok and set aside.
 
-5. **Cook the aromatics**: In the same wok, add the garlic, ginger, onion, and green bell pepper. Stir-fry for 2-3 minutes until the vegetables soften slightly.
+5. **Cook the aromatics**: In the same wok, add the garlic and ginger.
 
 6. **Add the chicken back**: Return the cooked chicken to the wok, along with the sauce. Stir well to coat everything in the sauce.
 

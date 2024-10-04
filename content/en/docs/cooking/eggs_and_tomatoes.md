@@ -6,7 +6,10 @@ tags: ["Chinese", "homestyle", "eggs", "tomatoes", "stir-fry"]
 image: "images/cooking/eggs_and_tomatoes.jpg"
 ---
 
-{{< figure src="/images/cooking/eggs_and_tomatoes.jpg" style="width: 50%; height: auto; display: block; margin: 0 auto;" >}}
+<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
+
+<div style="width: 50%; padding-right: 20px;">
+
 
 ### Ingredients
 
@@ -20,6 +23,14 @@ image: "images/cooking/eggs_and_tomatoes.jpg"
 - **Salt** and **pepper**, to taste
 - **1 tsp** sugar (optional, to balance acidity)
 - **2-3** scallions, chopped (for garnish, optional)
+
+</div>
+
+<div style="width: 40%; padding-left: 20px; text-align: center;">
+    <img src="/images/cooking/eggs_and_tomatoes.jpg" alt="Kung Pao Chicken" style="width: 100%; height: auto; object-fit: cover;">
+</div>
+
+</div>
 
 ### Instructions
 

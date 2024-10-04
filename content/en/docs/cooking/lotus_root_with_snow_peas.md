@@ -7,7 +7,9 @@ image: "images/cooking/lotus_root_with_snow_peas.jpg"
 tags: ["vegetarian", "stir-fry", "healthy", "Chinese", "lotus root", "snow peas"]
 ---
 
-{{< figure src="/images/cooking/lotus_root_with_snow_peas.jpg" style="width: 50%; height: auto; display: block; margin: 0 auto;" >}}
+<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
+
+<div style="width: 50%; padding-right: 20px;">
 
 ## Ingredients
 
@@ -24,6 +26,14 @@ tags: ["vegetarian", "stir-fry", "healthy", "Chinese", "lotus root", "snow peas"
 - Salt to taste
 - Water for blanching
 - A few drops of rice vinegar (optional, to prevent lotus root from browning)
+
+</div>
+
+<div style="width: 40%; padding-left: 20px; text-align: center;">
+    <img src="/images/cooking/lotus_root_with_snow_peas.jpg" alt="Kung Pao Chicken" style="width: 100%; height: auto; object-fit: cover;">
+</div>
+
+</div>
 
 ## Instructions
 
