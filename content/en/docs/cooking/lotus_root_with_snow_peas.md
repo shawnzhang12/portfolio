@@ -3,11 +3,11 @@ title: "Stir-Fried Lotus Root with Snow Peas"
 date: 2024-10-02
 draft: false
 description: "A light and crunchy stir-fry combining lotus root and snow peas for a nutritious, refreshing dish."
-image: "images/cooking/lotus_root_with_snow_peas.jpg"  # Add your image link here
+image: "images/cooking/lotus_root_with_snow_peas.jpg"
 tags: ["vegetarian", "stir-fry", "healthy", "Chinese", "lotus root", "snow peas"]
 ---
 
-{{< figure src="/images/cooking/lotus_root_with_snow_peas.jpg" style="width: 80%; height: auto; display: block; margin: 0 auto;" >}}
+{{< figure src="/images/cooking/lotus_root_with_snow_peas.jpg" style="width: 50%; height: auto; display: block; margin: 0 auto;" >}}
 
 ## Ingredients
 
